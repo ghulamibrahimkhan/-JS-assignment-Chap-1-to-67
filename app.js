@@ -1,31 +1,31 @@
 // *** Chapter # 1 ***//
 
-    // (Task 1)
+// (Task 1)
 // alert();
 
-    // (Task 2)
+// (Task 2)
 // alert("Error! Please enter a valid password");
 
-    // (Task 3)
+// (Task 3)
 // alert("Welcome to JS Land \nHappy Coding!");
 
-    // (Task 4) 
+// (Task 4) 
 // alert("Welcome to JS Land");
 // alert("Happy Coding");
 
-    // (Task 4) 
+// (Task 4) 
 // alert("Hello..I can run JS through my web browser's console");
 
 
- // *** Chapter # 2 ***//
+// *** Chapter # 2 ***//
 
-    // (Task 1)
+// (Task 1)
 // var userName;
 
-    // (Task 2)
+// (Task 2)
 // var myName = "Ghulam Ibrahim Khan";
 
-    // (Task 3)
+// (Task 3)
 // var message;
 // message = "Hello World"
 // alert(message);
@@ -38,40 +38,40 @@
 // alert(yourAge);
 // alert(courseInroll);
 
-    // (Task 5)
+// (Task 5)
 // var pza = "pizza\npizz\npiz\npi\np";
 // var pza = pza.toUpperCase();
 // alert(pza)
 
-    // (Task 6)
+// (Task 6)
 // var email = "gulamibrahimkhan@gmail.com";
 // alert("My email adress is " + email)
 
-    // (Task 7)
+// (Task 7)
 // var book = "A smarter way to learn JavaScript ";
 // alert("I'm trying to learn from a book " + book);
 
-    // (Task 8)
+// (Task 8)
 // document.write("Yah ! I can write HTML content through JavaScript")
 
-    // (Task 9)
+// (Task 9)
 // var ajeeb = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 // alert(ajeeb);
 
 
 //  *************************************************************** //
 
-        // *** Chapter # 3 ***//
+// *** Chapter # 3 ***//
 
-    // (Task 1)
+// (Task 1)
 // var age = 20;
 // alert("I'm " + age + " years old");
 
-    // (Task 2)
+// (Task 2)
 // var visits = 7;
 // alert("You have visited this site " + visits + " times" );
 // ;
-    // (Task 3)
+// (Task 3)
 // var birthYear = 2000;
 // document.write("My birth year is " + birthYear + "<br>" + "Data type of my decleared variable is number");
 
@@ -83,12 +83,12 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 4 ***//
+// *** Chapter # 4 ***//
 
-    // (Task 1)
+// (Task 1)
 // var one; var two; var three;
 
-    // (Task 2)
+// (Task 2)
 //legal\\
 // var one;
 // var two2;
@@ -103,7 +103,7 @@
 // var var;
 // var =;
 
-    // (Task 3)
+// (Task 3)
 // document.write("<h1>" +"Rules for naming JS variables" + "<h1>" + "<br>");
 // document.write("<h4>" + "Variable names can only contain , numbers,$ or _. For example : $my_1stVariable" +
 //  "<br>" + "Variables must begin with a letter, $ or _.For example: $name, _name or name" + "<br>" + 
@@ -112,7 +112,7 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 5 ***//
+// *** Chapter # 5 ***//
 
 //     // (Task 1)
 // var newVar = 3 + 5;
@@ -135,7 +135,7 @@
 // var newVarMod = 3 % 5;
 // document.write(newVarMod + "<br>");
 
-       // (Task 3)
+// (Task 3)
 // var varDec;
 // document.write("value of the decleared variable is undefined");
 // varDec = 5;
@@ -149,16 +149,16 @@
 // varDec = varDec % 3;
 // document.write("<br>" +"The reminder is: " + varDec);
 
-    // (Task 4)
+// (Task 4)
 // var ticketCost = 600;
 // document.write("The total cost of buying 5 tickets is " + (ticketCost * 5) + "PKR")
 
-    // (Task 5)
+// (Task 5)
 // for(var i = 1; i <= 10; i++){
 //     document.write("2 x " + i + " = " + 2*i + "<br>");
 // }
 
-   // (Task 6)
+// (Task 6)
 // var celsius = 40;
 // var fahrenheit;
 // fahrenheit = (celsius * 9 / 5) +32;
@@ -168,7 +168,7 @@
 // celsius = (fahrenheit - 32) * 5 / 9;
 // document.write(fahrenheit + "°F is " + celsius + "°C" + "<br>"); // Alt + 0176 for celsius sign
 
-   // (Task 7)
+// (Task 7)
 // document.write("<h1>" + "Shopping Cart" + "</h1>")
 //  // Items price //
 // var item1Price = 650;
@@ -192,7 +192,7 @@
 // // Total cost of order //
 // document.write("Total cost of your order is " + (costTotalItem1 + costTotalItem2) )
 
-   // (Task 8)
+// (Task 8)
 // var totalMarks = 980;
 // var marksObtained = 804;
 // var percentage = (804 / 980) * 100;
@@ -200,13 +200,13 @@
 // document.write("Marks otained: " + marksObtained + "<br>");
 // document.write("Percentage: " + percentage + "%" + "<br>");
 
-   // (Task 9)
+// (Task 9)
 // var totalCurrency = document.write("Total Currency in PKR: " + (104.80 * 10 + 28 *25))
 
-   // (Task 10)
+// (Task 10)
 // var tenthTask = (7 + 5 * 10) / 2;
 
-   // (Task 11)
+// (Task 11)
 // var currentYear = 2020;
 // var birthYear = 2000;
 // var actualAge = currentYear - birthYear;
@@ -230,7 +230,7 @@
 
 
 
-   // (Task 13)
+// (Task 13)
 // var favSnack = "rite";
 // var currentAge = 20;
 // var maxAge = 60;
@@ -241,9 +241,9 @@
 // document.write("Amount of snacks per day" + amountPerDay + "<br>");
 // document.write("You will need " + (maxAge*365*3) + " choclate chip to last you untillthe ripe old age of " + maxAge);
 
-        // *** Chapter # 6 to 9 ***//
+// *** Chapter # 6 to 9 ***//
 
-    // (Task 1)
+// (Task 1)
 // document.write("Result: " + "<br>");
 // a = 10;
 // document.write("The Value of a is " + a + "<br>");
@@ -264,39 +264,35 @@
 // document.write("<br>" + "<br>" + "The Value of a-- is " + a-- + "<br>");
 // document.write("Now the value of a-- is " + a + "<br>");
 
-    // (Task 2)
+// (Task 2)
 // var a = 2;
 // var b = 1;
+
+// var result = --a;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
+// var result = --a - --b;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
+// var result = --a - --b + ++b;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
 // var result = --a - --b +  ++b + b--;
 // document.write("a is " + a + "<br>");
 // document.write("b is " + b + "<br>");
-// document.write("result is " + result + "<br>");
-
-// --a;
-// document.write("a is " + a + "<br>");
-// document.write("b is " + b + "<br>");
 // document.write("result is " + result + "<br>"+ "<br>");
 
-// --a - --b;
-// document.write("a is " + a + "<br>");
-// document.write("b is " + b + "<br>");
-// document.write("result is " + result + "<br>"+ "<br>");
-
-// --a - --b + ++b;
-// document.write("a is " + a + "<br>");
-// document.write("b is " + b + "<br>");
-// document.write("result is " + result + "<br>"+ "<br>");
-
-// --a - --b + ++b +b--;
-// document.write("a is " + a + "<br>");
-// document.write("b is " + b + "<br>");
-// document.write("result is " + result + "<br>"+ "<br>");
-
-    // (Task 3)
+// (Task 3)
 // var greetInput = prompt("Enter Your name");
 // var greetUser = alert("congratulations " + greetInput + " for you to be part of this course");
 
-    // (Task 5)
+// (Task 5)
 // var inputTable = +prompt("Enter number",5);
 // for(i = 1; i <= 10; i++){
 //     document.write("2 x" + i + " = " + i*inputTable + "<br>");
@@ -344,13 +340,13 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 10 to 11 ***//
+// *** Chapter # 9 to 11 ***//
 
-    // (Task 1)
+// (Task 1)
 // var city = prompt("Enter City Name","Karachi");
 // alert("Welcome to " + city + " the city of lights");
 
-    // (Task 2)
+// (Task 2)
 // var gender = prompt("Enter Your Gender","Male");
 // gender = gender.toLocaleLowerCase();
 // if(gender === "male"){
@@ -363,29 +359,38 @@
 //     alert("You have entered worng gender");
 // }
 
-    // (Task 3)
-// skipped , will try in last
-
-    // (Task 4)
+// (Task 3)
+// var signalColor = prompt("Enter Signal Color");
+// signalColor = signalColor.toLowerCase();
+// if (signalColor === "red"){
+//     document.write("Must To Stop")
+// } 
+// else if (signalColor === "Ready To Move"){
+//     document.write("")
+// } 
+// else if (signalColor === "green"){
+//     document.write("Move On")
+// } 
+// (Task 4)
 // var fuel = +prompt("Current fuel ammount in liters");
 // if(fuel < 0.25){
 //     document.write("Please refill the fuel in your car")
 // }
 
-    // (Task 5)
-    // (a)
+// (Task 5)
+// (a)
 // var a = 4;
 // if (++a === 5){
 // alert("given condition for variable a is true");
 // }
 
-    // (b)
+//     // (b)
 // var b = 82;
 // if (b++ === 83){
 // alert("given condition for variable b is true");
 // }
 
-    // (c)
+//     // (c)
 // var c = 12;
 // if (c++ === 13){
 // alert("condition 1 is true");
@@ -400,7 +405,7 @@
 //     alert("condition 4 is true");
 //     }
 
-    // (d)    
+//     // (d)    
 // var materialCost = 20000;
 // var laborCost = 2000;
 // var totalCost = materialCost + laborCost;
@@ -408,7 +413,7 @@
 // alert("The cost equals");
 // }
 
-    // (e)
+//     // (e)
 // if (true){
 // alert("True");
 // }
@@ -416,12 +421,12 @@
 // alert("False");
 // }
 
-    // (f)
+//     // (f)
 // if("car" < "cat"){
 // alert("car is smaller than cat");
 // }        
 
-   // (Task 6)
+// (Task 6)
 // var sub1 = +prompt("Enter your marks in Maths");
 // var sub2 = +prompt("Enter your marks in Physics");
 // var sub3 = +prompt("Enter your marks in Computer");
@@ -459,7 +464,7 @@
 //     document.write("<h3>" + "Remarks:  Sorry" +   "</h2>");
 //    }
 
-   // (Task 7)
+// (Task 7)
 // var guessNum = +prompt("Guess the number")
 // var secretNum = 7;
 // if(guessNum === secretNum){
@@ -472,16 +477,17 @@
 //     alert("Try again")
 // }
 
-   // (Task 8)
-// var num = prompt("Check your number");
-// if(3 % num === 0){
+// (Task 8)
+// var givenNum = prompt("Check your number");
+// num = givenNum % 3
+// if(num === 0){
 //     document.write("Given number is divisible by 3 ");
-
-// else{
+// }
+// else {
 //     document.write("Given number is'nt divisible by 3 ");
 // }
 
-   // (Task 9)
+// (Task 9)
 // var num = +prompt("Enter the number" );
 // if(num % 2 === 0)
 // {
@@ -491,7 +497,7 @@
 //  document.write("Number is ODD");
 // }
 
-   // (Task 10)
+// (Task 10)
 // var temperature = +prompt("Input Today's Temprature in °C");  //alt + 0176
 // if(temperature >= 40){
 //     document.write("It is too hot outside.");
@@ -506,7 +512,7 @@
 //     document.write("“OMG! Today’s weather is so Cool.");
 // }
 
-   // (Task 11)
+// (Task 11)
 // var val1 = +prompt("Enter your 1st value");
 // var val2 = +prompt("Enter your 2nd value");
 // var sign = prompt("Enter your operator");
@@ -532,32 +538,32 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 12 to 13 ***//
+// *** Chapter # 12 to 13 ***//
 
-    // (Task 1)
+// (Task 1)
 // var input =  prompt("Enter")
 // if ( (input.charCodeAt(0) >=65) && (input.charCodeAt(0) <=90) ){ 
 //     alert ("Uppercase Letter");}
 // else if( (input.charCodeAt(0) >=97) && (input.charCodeAt(0) <=122) ){
 //     alert ("Lowercase Letter");}
 
-    // (Task 2)
+// (Task 2)
 // var integer1st = +prompt("Enter 1st num");
 // var integer2nd = +prompt("Enter 2nd num");
 // if(integer1st === integer2nd){
 //     document.write("Both Integer Are Equal");
 // }
 // else if(integer1st > integer2nd){
-//     document.write("Integer 1 is Bigger");
+//     document.write("Integer 2= '"+ integer1st + "' is Bigger");
 // }
 // else if(integer1st < integer2nd){
-//     document.write("Integer 2 is Bigger");
+//     document.write("Integer 2= '"+ integer2nd + "' is Bigger");
 // }
 // else{
 //    console.log(null);
 // }
 
-   // (Task 3)
+// (Task 3)
 // var inputNumber = +prompt("Enter your number");
 // if(inputNumber === 0){
 //     document.write("The number is ZERO")
@@ -569,10 +575,21 @@
 //     document.write("The number is NEGATIVE")
 // }
 
-   // (Task 4)
-// skipped yet
+// (Task 4)
+// var a = "a";   
+// var e = "e";   
+// var i = "i";   
+// var o = "o";   
+// var u = "u";   
+// var char = prompt("Enter any character to check")
+// if(char === a || char === e || char ===  i || char ===  o || char ===  u){
+//     document.write("True")
+// }
+// else{
+//     document.write("False")
+// }
 
-   // (Task 5)
+// (Task 5)
 // var passWord = "saywebapp";
 // var inputPassword = prompt("Please Enter Your Password");
 // if(passWord === inputPassword){
@@ -585,17 +602,17 @@
 //     document.write("Please enter your password");
 // }
 
-   // (Task 6)
+//    // (Task 6)
 // var greeting;
 // var hour = 13;
 // if(hour < 18){
-//     greeting = "Good day";
+//     greeting = document.write("Good day");
 // }
 // else{
-//     greeting = "Good evening";
+//     greeting = document.write("Good evening");
 // }
 
-   // (Task 7)
+// (Task 7)
 // var time = prompt("Enter Time like '1900'= (7pm) ")
 // if(time >= 0000 && time <= 1200){
 //     document.write("Good Morning !")
@@ -615,33 +632,33 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 13 to 15 ***//
+// *** Chapter # 13 to 15 ***//
 
-        // (Task 1)
+// (Task 1)
 // var studentsName = [];
 
-        // (Task 2)
+// (Task 2)
 // var studentsName = new Array();
 
-        // (Task 3)
+// (Task 3)
 // var strArray = ["Ghulam","Ibrahim","Khan"];
 
-        // (Task 4)
+// (Task 4)
 // var numArray = [1,3,4,5,5,6,7];
 
-        // (Task 5)
-// var boolenArray  skipped                     task 5,6,7
+// (Task 5)
+// var boolenArray = [true,false]
 
-        // (Task 6)
+// (Task 6)
 // var mixArray = ["ibrahim",3,"Khan",5]
 
-        // (Task 7)
+// (Task 7)
 // var eduQualInPak = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PHD"]
 // for(var i = 0; i <= 7; i++){
 //     document.write(eduQualInPak[i] + "<br>");
 // }
 
-        // (Task 8)
+// (Task 8)
 // var students = ["Ibrahim","Osams","Sulaman"];
 // var studentsScore = [450,300,380];
 // var totalMArks = 500;
@@ -650,17 +667,17 @@
 //     document.write("Score of " + students[i] + " is " + studentsScore[i] + ". Percentage " + (studentsScore[i] / totalMArks) * 100 + "<br>")
 // }
 
-        // (Task 9)
-        // skipped
+// (Task 9)
+// skipped
 
-        // (Task 10)
+// (Task 10)
 // var studentSCore = [320,230,480,120,480];
 // document.write("Scores of Students :" + studentSCore + "<br>")
 // studentSCore.sort();        
 // studentSCore.reverse();
 // document.write( "Order Scores of Students : " + studentSCore)
 
-        // (Task 11)
+// (Task 11)
 // var Cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
 // var selectedCities = Cities.slice(2,6);
 
@@ -670,13 +687,13 @@
 // document.write("Selected cities list"  + "<br>");
 // document.write(selectedCities);
 
-        // (Task 12)
+// (Task 12)
 // var arr = ["This","is","my","cat"];
 // document.write("<h1>" + "Array:" + "<br>" + arr   + "<br>");
 // var strJoin = arr.join(" ");                    // *****array’s join method****8
 // document.write("String:" + "<br>" + strJoin);
 
-        // (Task 13)
+// (Task 13)
 // var arrNew = [];
 // arrNew.push("Keyboard");
 // arrNew.push("Mouse");
@@ -687,7 +704,7 @@
 //     document.write("Out:" + "<br>" + arrNew[i] + "<br>")
 // }
 
-        // (Task 14)
+// (Task 14)
 // var arrNew2 = [];
 // arrNew2.unshift("Keyboard");
 // arrNew2.unshift("Mouse");
@@ -698,7 +715,7 @@
 //     document.write("Out:" + "<br>" + arrNew2[i] + "<br>")
 // }
 
-        // (Task 15)
+// (Task 15)
 // var manufacturers = ["Apple","Samsung","Motorolla","Nokia","Sony","Haier"];
 
 // document.write("<select>");
@@ -709,9 +726,9 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 17 to 20 ***//
+// *** Chapter # 17 to 20 ***//
 
-        // (Task 1)
+// (Task 1)
 // var multiDimArray = [
 //     []
 // ];
@@ -724,7 +741,7 @@
 // ];
 // document.write(multiMatrixArray[0] + "<br>" + multiMatrixArray[1] + "<br>" + multiMatrixArray[2])
 
-        // (Task 3)
+// (Task 3)
 // for(var i = 1; i <= 10; i++){
 //     document.write(i + "<br>" )
 // }
@@ -745,7 +762,7 @@
 //     document.write("<br>" + "Element at index " + i + " is " + fruits[i] + "  " + "<br>")
 // }
 
-        // (Task 6)
+// (Task 6)
 // document.write("<h1>" + "Counting" + "</h1>")
 // for(var i = 1; i < 15; i++ ){
 //     document.write("" + i + " ,")
@@ -771,37 +788,53 @@
 //     document.write(i + "K , ")
 // }
 
-        // (Task 7)
+// (Task 7)
 
-// var search= prompt("Welcome to Ibrahim's Bakery. What do you want to order sir/ma'am?","Cookie"); 
+// var search = prompt("Welcome to Ibrahim's Bakery. What do you want to order sir/ma'am?", "Cookie");
 // search = search.toLowerCase();
 // var items = ["cake", "apple pie", "cookie", "chips", "patties"]
 
-// if(items[0] === search){
-//     document.write(items[0] + " is available at index 1 in our bakery")
+
+// if (items[0] === search) {
+//     document.write(items[i] + " is available at index 1 in our bakery")
 // }
-// else if(items[1] === search){
+// else if (items[1] === search) {
 //     document.write(items[1] + " is available at index 2 in our bakery")
 // }
-// else if(items[2] === search){
+
+// else if (items[2] === search) {
 //     document.write(items[2] + " is available at index 3 in our bakery")
 // }
-// else if(items[3] === search){
+// else if (items[3] === search) {
 //     document.write(items[3] + " is available at index 4 in our bakery")
 // }
-// else if(items[4] === search){
+// else if (items[4] === search) {
 //     document.write(items[04] + " is available at index 5 in our bakery")
 // }
-// else{
-//     document.write(" We're sorry. " + search + " is'nt available in our bakery "  )
+
+// else {
+//     document.write(" We're sorry. " + search + " is'nt available in our bakery ")
 // }
 
         // (Task 8)
-        // Skipped
+// var numbers = [24,53,78,91,12]
+// var large = 0
+// for(var i = 0; i < 4; i++){
+//     if(numbers[i] > large){
+//         large = numbers[i]
+//     } 
+// }
+// document.write("The largest numberis " + large)
 
         // (Task 9)
-        // Skipped
-
+// var numbers = [24,53,78,91,12]
+// var small = numbers[0];
+// for(var i = 0; i < 5; i++){
+//     if (numbers[i] < small){
+//         small = numbers[i]
+//     }
+// }
+// document.write(small)
         // (Task 10)
 // document.write("<h1>" + "Series" + "</h1>")
 // for(var i = 5; i <= 100; i = i = i + 5 ){
@@ -1277,4 +1310,4 @@
 
 // //  (Task 12)            ---Skipped***
 // //  (Task 13)            ---Skipped***
-// //  (Task 14)            ---Skipped***
+
