@@ -377,7 +377,7 @@
 //     document.write("Please refill the fuel in your car")
 // }
 
-// (Task 5)
+//      (Task 5)
 // (a)
 // var a = 4;
 // if (++a === 5){
@@ -477,7 +477,7 @@
 //     alert("Try again")
 // }
 
-// (Task 8)
+//      (Task 8)
 // var givenNum = prompt("Check your number");
 // num = givenNum % 3
 // if(num === 0){
@@ -487,7 +487,7 @@
 //     document.write("Given number is'nt divisible by 3 ");
 // }
 
-// (Task 9)
+//      (Task 9)
 // var num = +prompt("Enter the number" );
 // if(num % 2 === 0)
 // {
@@ -497,7 +497,7 @@
 //  document.write("Number is ODD");
 // }
 
-// (Task 10)
+//      (Task 10)
 // var temperature = +prompt("Input Today's Temprature in °C");  //alt + 0176
 // if(temperature >= 40){
 //     document.write("It is too hot outside.");
@@ -512,7 +512,7 @@
 //     document.write("“OMG! Today’s weather is so Cool.");
 // }
 
-// (Task 11)
+//      (Task 11)
 // var val1 = +prompt("Enter your 1st value");
 // var val2 = +prompt("Enter your 2nd value");
 // var sign = prompt("Enter your operator");
@@ -540,7 +540,7 @@
 
 // *** Chapter # 12 to 13 ***//
 
-// (Task 1)
+        // (Task 1)
 // var input =  prompt("Enter")
 // if ( (input.charCodeAt(0) >=65) && (input.charCodeAt(0) <=90) ){ 
 //     alert ("Uppercase Letter");}
@@ -870,7 +870,7 @@
 // var HeWl = "Hello World"
 // document.write("String: " + HeWl + "<br>");
 // var lstIndex = HeWl.lastIndexOf("l")
-// document.write("Last index of 'l': "  + lstIndex);
+// document.write("Last index of ' l ': "  + lstIndex);
 
 // (Task 5)
 // var str = "Pakistani";
@@ -878,17 +878,22 @@
 // var thirdIndex = str.slice(3,4);
 // document.write("Character at index 3: " + thirdIndex + "</h1>" );
 
-// (Task 6)  Skipped
-
+// (Task 6)
+// var a = prompt("Your First Name");
+// var b = prompt("Your Last Name");
+// var c = a.concat(b);
+// document.write(c)
 
 // (Task 7)
-// var city = "Hyderabad";
+// var city = "Islamabad";
 // document.write("City: " + city + "<br>");
-// var cityReplace = city.replace(" Hyderabad"," Islamabad");
+// var cityReplace = city.replace("Islam","Hyder");
 // document.write("After replacement: " + cityReplace);
 
 // (Task 8)
+
 // var message = "Ali and Sami are best friends. They play cricket and football together"
+// document.write(message + "<br>");
 // var mesgReplace = message.replace(/and/g,"&");
 // document.write(mesgReplace);
 
@@ -919,10 +924,20 @@
 // document.write("Title case: " + firstChar + otherChars + "<br>")
 
 // (Task 12)
-// var num = 33.36;                       Skipped
+// var num = 33.36;
+// var str = num.toString()
+// var c = str.replace(".","")
+// document.write("Number: " + num + "<br>" + "Result: " + c)
 
 // (Task 13)
 
+// var userName = prompt("Enter your name")
+// for(var i=0; i < userName.length; i++){
+//         var a = userName.charAt(0);
+//         if (a[i] === 33 || 44 || 46 || 64){
+//                 document.write("Enter a valid name")
+//         }
+// }
 
 // (Task 14)
 // var items = ["cake","apple pie","cookie","chips","patties"];
@@ -939,8 +954,17 @@
 //        break
 // }
 
-// (Task 15) skipped 
-
+//      (Task 15)
+// var a = 97
+// var b = 122
+// var pass = prompt("Set Your Password");
+// for(var i = 0; i < pass.length; i++){
+//         var check = pass.charAt(0)
+//         if(check[i]  > a && check[i] < b && check[i] >65 && check[i] < 90 && check[i] && check[i] > 48 && check[i] < 57){
+//                 document.write("correct");
+//         }
+// } 
+                // ***********// 15 skipped*****************
 
 // (Task 16)
 // var uni = "University of Karachi"
@@ -1006,6 +1030,9 @@
 // }
 
 //          (Task 3)
+// var a = -4;
+// var b = Math.abs(a)
+// document.write("The absolute value of " + a + " is " + b)
 
 //          (Task 4)
 // var dice = Math.random() * 6;
@@ -1047,7 +1074,7 @@
 //     alert("Try Again")
 // }
 
-//           (chapter 26 to 30)
+//           (chapter 31 to 34)
 
 //          (Task 1)
 // var date = new Date();
