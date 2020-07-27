@@ -540,7 +540,7 @@
 
 // *** Chapter # 12 to 13 ***//
 
-        // (Task 1)
+// (Task 1)
 // var input =  prompt("Enter")
 // if ( (input.charCodeAt(0) >=65) && (input.charCodeAt(0) <=90) ){ 
 //     alert ("Uppercase Letter");}
@@ -816,7 +816,7 @@
 //     document.write(" We're sorry. " + search + " is'nt available in our bakery ")
 // }
 
-        // (Task 8)
+// (Task 8)
 // var numbers = [24,53,78,91,12]
 // var large = 0
 // for(var i = 0; i < 4; i++){
@@ -826,7 +826,7 @@
 // }
 // document.write("The largest numberis " + large)
 
-        // (Task 9)
+// (Task 9)
 // var numbers = [24,53,78,91,12]
 // var small = numbers[0];
 // for(var i = 0; i < 5; i++){
@@ -835,7 +835,7 @@
 //     }
 // }
 // document.write(small)
-        // (Task 10)
+// (Task 10)
 // document.write("<h1>" + "Series" + "</h1>")
 // for(var i = 5; i <= 100; i = i = i + 5 ){
 //     document.write(i + " , ")
@@ -964,7 +964,7 @@
 //                 document.write("correct");
 //         }
 // } 
-                // ***********// 15 skipped*****************
+// ***********// 15 skipped*****************
 
 // (Task 16)
 // var uni = "University of Karachi"
@@ -1109,7 +1109,7 @@
 //     document.write("First 15 Days of The Month");
 // }
 // else{
-//     document.write("Last 15 Days of The Month");
+//     document.write("Last Days of The Month");
 // }
 
 //          (Task 6)
@@ -1125,7 +1125,7 @@
 //          (Task 7)
 // var date = new Date();
 // var hours = date.getHours();
-// if(hours <= 12){
+// if(hours < 12){
 //     document.write("It's AM")
 // }
 // else{
@@ -1163,12 +1163,12 @@
 //  (Task 11)
 // var currDate = new Date();
 // var hour = currDate.getHours();
+// document.write(currDate + "<br>");
 
-// var date2 = new Date;
-// // var lastHour = date2.getHours(Hour - 1)
+// var date2 = new Date();
+// var lastHour = date2.getHours(hour - 1)
 // date2.setHours(hour - 1)
 
-// document.write(currDate + "<br>");
 // document.write(date2);
 
 //  (Task 12)
@@ -1226,14 +1226,14 @@
 // function userName(){
 //         var a = prompt("Enter Your First Name")
 //         var b = prompt("Enter Your Last Name")
-//         document.write(a + " " +b)
+//         document.write("Greeting " + a + " " +b)
 // }
 // userName();
 
 //  (Task 3)
 // function sum(){
-//         var a = 3;
-//         var b = 4;
+//         var a = +prompt("Enter 1st number","3");
+//         var b = +prompt("Enter 2nd number","4");
 //         var sum = a + b;
 //         document.write(sum)
 // }
@@ -1276,12 +1276,23 @@
 // }
 // square();
 
-//  (Task 6)     skipped
+//  (Task 6)
+// function factorial(){
+// var a = +prompt("Enter your Number","7")
+// var a = document.write(7)
+
+// for(var i = a; i >= a; i--){
+//         console.log(a)
+// }
+
+// }
+// console.log(factorial())
+
 
 //  (Task 7)
 // function counting(){ 
-// var f = prompt("Where to start","Enter Number" )
-// var l = prompt("Where to end","Enter Number" )
+// var f = +prompt("Where to start","Enter Number" )
+// var l = +prompt("Where to end","Enter Number" )
 
 // for(f ; f <= l; f++){
 //         document.write(f + "<br>");
@@ -1290,17 +1301,28 @@
 // counting();
 
 // //  (Task 8)
-// function hypo() {
-//         function calculation() {
-//                 var base = +prompt("Enter base");
-//                 var Perpen = +prompt("Enter perpendicular");
-//         }
+// function hypo(base,Perpen){
+//         var a = base * base ;
+//         var b = Perpen * Perpen;
+//         var c = a + b ;
+//         var d = Math.sqrt(c)
+//         document.write(d)
 // }
+// var base = +prompt("Enter base");
+// var Perpen = +prompt("Enter perpendicular");
+// hypo(base,Perpen)
+
 
 // //  (Task 9)
+// function area(width,height){
+//         var a = width * height;
+//         document.write(a)
+// }
+// var width = +prompt("Enter Width of a triangle")
+// var heigth = +prompt("Enter Heigth of a triangle")
+// area(width,heigth);
 
 // //  (Task 10)
-
 // function palindrom() {
 //         var a = prompt("Check Word");
 //         var a = a.toLowerCase();
@@ -1321,20 +1343,67 @@
 // palindrom();
 
 // //  (Task 11)
+// function upperWords(str){
+//         var words = str.split(" ").map(word =>{
+//                 var firstLetter = word.slice(0,1)
+//                 var rest = word.slice(1)
+//                 firstLetter = firstLetter.toUpperCase();
+//                 console.log(firstLetter, rest);
+//                 return `${firstLetter}${rest}`;
+//         });
+//         return words.join(" ")
 
-// function upperWords(cap){
-//     var array = cap.split(" ");
-//     for(i = 0; i < array.length; i++){
-//       var strSplit = array[i].split("");
-//       strSplit[0] = strSplit[0].toUpperCase();
-//       array[i] = strSplit.join("");
-//     }
-//     cap = array.join(" ");
-//     document.write(cap);
 // }
-// var sentense= prompt("Enter a sentense");
-// upperWords(sentense);
+// var a = upperWords("the quick brown fox");
+// document.write(a)
+
+// //  (Task 11)  // dusry triky sy
+// function upperWords(str) {
+//         var words = str.split(" ").map(word => {
+              
+//                 return word.charAt(0).toUpperCase()+word.slice(1);
+//         });
+//         return words.join(" ")
+
+// }
+// var a = upperWords("the quick brown fox");
+// document.write(a)
+
 
 // //  (Task 12)            ---Skipped***
+// function longestWord(str){
+//         var longestWord = "";
+//         var words = str.split(" ");
+
+//         for(var i=0; i < words.length; i++){
+//                 var sinWord = words[i]
+        
+//         if(sinWord.length > longestWord.length){
+//                 longestWord = sinWord
+//         }
+// }
+//         return longestWord
+// } 
+// var fun = longestWord("Web Development Tutorial");
+// document.write(fun)
+
 // //  (Task 13)            ---Skipped***
 
+// //  (Task 14) 
+//      (A)
+// function calcCircumference(radius){
+//         var circum = (2 * 3.14) * radius;
+        
+//         return circum
+// }
+// var circumference = calcCircumference(3);
+// document.write(circumference)
+
+//       (A)
+// function calcArea(radius){
+//         var a = 3.14 * (radius * radius)
+
+//         return  a;
+// }
+// var area = calcArea(7);
+// document.write(area);
