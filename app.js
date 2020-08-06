@@ -1507,7 +1507,7 @@
 // var a = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt harum ratione dolorem quisquam, quasi inventore cumque accusamus mollitia architecto! Labore officiis doloribus sit earum numquam ea repellat id";
 // document.write(a)
 // function index() {
-    
+
 //     var b = prompt("Index of character")
 //     var c = a.indexOf(b)
 
@@ -1578,4 +1578,50 @@
 //      (Task 9)
 
 
-//           ***************(chapter 35 to 38)******************
+//           ***************(chapter 43 to 48)******************
+
+//      (Task 1)
+// var a = "task 1"
+// document.write("<a href='Javascript:void(0)'  onclick='; alert(a)'>Link<a>")
+
+//      (Task 2)
+// var i = "Thanks from purchasing a phone from us"
+// document.write("<img onclick='alert(i)' src='1.jpg' height='300px'>")
+// document.write("<img onclick='alert(i)' src='3.jpg' height='300px'>")
+// document.write("<img onclick='alert(i)' src='2.jpg' height='300px'>")
+// document.write("<img onclick='alert(i)' src='4.jpg' height='300px'>")
+
+//      (Task 3)
+// function rowDelete1() {
+//     var tabel = document.getElementById("tabelFunction")
+//     tabel.deleteRow(1)
+// }
+// function rowDelete2() {
+//     var tabel = document.getElementById("tabelFunction")
+//     tabel.deleteRow(2)
+// }
+// function rowDelete3() {
+//     var tabel = document.getElementById("tabelFunction")
+//     tabel.deleteRow(3)
+// }
+// function rowDelete4() {
+//     var tabel = document.getElementById("tabelFunction")
+//     tabel.deleteRow(4)
+// }
+
+
+//      (Task 4)
+//  on Index.html
+
+//      (Task 5)
+a = 0
+// function increase(){
+//     document.getElementById("increase")
+//     ++a
+//     console.log(a)
+// }
+// function decrease(){
+//     document.getElementById("decrease")
+//     --a
+//     console.log(a)
+// }
