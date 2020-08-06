@@ -1214,7 +1214,7 @@
 // document.write("Late payment surcharge: " + lateChr  +"<br>")
 // document.write("Gross Amount Payable(after Due Date): " + latePay)
 
-//           (chapter 35 to 38)
+//           ***************(chapter 35 to 38)******************
 
 //  (Task 1)
 // function date(){
@@ -1279,14 +1279,15 @@
 //  (Task 6)
 // function factorial(){
 // var a = +prompt("Enter your Number","7")
-// var a = document.write(7)
+// var b = 1;
 
-// for(var i = a; i >= a; i--){
-//         console.log(a)
+// for(var i = a; i >= 1; i--){
+//          b = b * i 
 // }
+// document.write(b)
 
 // }
-// console.log(factorial())
+// factorial()
 
 
 //  (Task 7)
@@ -1360,7 +1361,7 @@
 // //  (Task 11)  // dusry triky sy
 // function upperWords(str) {
 //         var words = str.split(" ").map(word => {
-              
+
 //                 return word.charAt(0).toUpperCase()+word.slice(1);
 //         });
 //         return words.join(" ")
@@ -1377,7 +1378,7 @@
 
 //         for(var i=0; i < words.length; i++){
 //                 var sinWord = words[i]
-        
+
 //         if(sinWord.length > longestWord.length){
 //                 longestWord = sinWord
 //         }
@@ -1393,7 +1394,7 @@
 //      (A)
 // function calcCircumference(radius){
 //         var circum = (2 * 3.14) * radius;
-        
+
 //         return circum
 // }
 // var circumference = calcCircumference(3);
@@ -1407,3 +1408,174 @@
 // }
 // var area = calcArea(7);
 // document.write(area);
+
+
+// *********** Chapter # 38 to 42 *********//
+
+//      (Task 1)
+
+// function raise(number,power){
+//     var c = Math.pow(number,power)
+//     document.write(c)
+// }
+// var a = +prompt("Enter number")
+// var b = +prompt("Enter power")
+// raise(a,b)
+
+
+//      (Task 2)
+// function leap(){
+//     var year = +prompt("Enter year to check","2012")
+//     if(year % 4 == 0){
+//         document.write("This year is leap year")
+//     } 
+//     else{
+//         document.write("This is random year")
+//     }
+// }
+// leap()
+
+
+//      (Task 3)
+// function S(a,b,c){
+//     return (a + b + c) / 2
+// }
+// var A = +prompt("Length of a");
+// var B = +prompt("Length of b");
+// var C = +prompt("Length of c");
+
+// // This is the sum of "S"
+// var sum = S(A,B,C);
+
+// // The second function
+// function area(){
+
+//   var answer = sum*(sum - A)*(sum - B)*(sum - C);
+
+//   return answer
+// }
+// var ans = area()
+// document.write(ans + "<br>")
+
+// // There's a Under root in Heron's Formula 
+// document.write("The area of triangle is  " + Math.sqrt(ans))
+
+
+//      (Task 4)
+
+// Main Function
+// function main(Subject1,Subject2,Subject3){
+
+//     var sum = Subject1 + Subject2 + Subject3
+//     return sum
+// }
+// //  Prompts
+// var Student = prompt("Enter Student  Name","Ghulam Ibrahim")
+// var Subject1 = +prompt("Enter Student Physice Marks")
+// var Subject2 = +prompt("Enter Student Chemistey Marks")
+// var Subject3 = +prompt("Enter Student Maths Marks")
+
+// //  Taking and passing values to MAIN
+// var funSum = main(Subject1,Subject2,Subject3)
+// console.log(funSum)
+
+// //  Percentage function / 2nd function
+// function Percentage(funSum,percen,totalMarks){
+//     var a = (funSum * percen) / totalMarks 
+//     return a
+// }
+// // Percentage Formula: Obtained Marks * 100  /DIVIDED/ Total Marks
+// var totalMarks = 300 
+// var percen = 100
+// // Answer of Percentage
+// var funPerc = Percentage(funSum,percen,totalMarks)
+
+
+// //  Average Function /3rd Function 
+// function average(funSum,totalSub){
+//     b = funSum / totalSub
+//     return b
+// }
+// // Average Formula:  Sum of all values / No Of Values
+// var totalSub = 3;
+// // Answer of Average 
+// var funAverage = average(funSum,totalSub);
+
+// document.write(Student + " got Total " + funSum + " out of " + totalMarks + " and his/her Percentage is " + funPerc + " and the average is " + funAverage ) 
+
+//      (Task 5)
+// var a = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt harum ratione dolorem quisquam, quasi inventore cumque accusamus mollitia architecto! Labore officiis doloribus sit earum numquam ea repellat id";
+// document.write(a)
+// function index() {
+    
+//     var b = prompt("Index of character")
+//     var c = a.indexOf(b)
+
+//     return c
+// }
+// var d = index()
+// console.log(d)
+
+// //      (Task 6)
+// var text = "The first string inside the parentheses is the segment to be replaced. The second string is the segment to be inserted"
+// document.write(text + "<br>")
+// function vowels(){
+//     var a = text.replace(/a/g,"")
+//     var e = a.replace(/e/g,"")
+//     var i = e.replace(/i/g,"")
+//     var o = i.replace(/o/g,"")
+//     var u = o.replace(/u/g,"")
+//     document.write(u)
+// }
+// vowels()
+
+// //      (Task 7) **skiped**
+
+//      (Task 8)
+
+// var distanceK = +prompt("Enter Distance betweem Karachi and Lahore in Kilometer","1219");
+// // Meter function
+// function meter(){
+//     // Formula : Meter = Kilometer * 100
+//     var distanceM = distanceK * 1000;
+
+//     return distanceM
+// }
+// var vmeter = meter()
+
+// // Centimeter function
+// function centiMeter(){
+//     // Formula : Centimeter = Meter * 100
+//     var distanceCm = vmeter * 100;
+
+//     return distanceCm
+// }
+// var vcentiMeter = centiMeter()
+
+// // Inches Function
+// function inches(){
+//     // Formula : Inches = Centimeter / 2.54
+//     var distanceIn = vcentiMeter / 2.54
+
+//     return distanceIn
+// }
+// var vinches = inches()
+
+// // Feet Function
+// function feet(){
+//     // Formula : Feet = Inches / 12
+//     var distancef = vinches / 12
+
+//     return distancef
+// }
+// var vfeet = feet()
+
+// console.log(vmeter)
+// console.log(vcentiMeter)
+// console.log(vinches)
+// console.log(vfeet)
+
+//      (Task 9)
+
+
+//           ***************(chapter 35 to 38)******************
