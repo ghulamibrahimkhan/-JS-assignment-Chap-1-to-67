@@ -1614,7 +1614,7 @@
 //  on Index.html
 
 //      (Task 5)
-a = 0
+// a = 0
 // function increase(){
 //     document.getElementById("increase")
 //     ++a
@@ -1625,3 +1625,17 @@ a = 0
 //     --a
 //     console.log(a)
 // }
+
+
+//           ***************(chapter 43 to 48)******************
+
+//      (Task 1)
+
+function formData() {
+    var a = document.getElementById("email")
+    var b = document.getElementById("country")
+    var c = document.getElementById("password")
+
+    // Printing Values
+    document.write("Email: " + a.value + "<br>" + "Country: " + b.value + "<br>"+ "Password:" + c.value)
+}
